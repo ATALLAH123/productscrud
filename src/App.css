@@ -1,0 +1,40 @@
+/* navbar */
+.navbar-nav a {
+  font-size: 18px;
+}
+
+.navbar-nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+
+}
+
+
+/* home button */
+
+#bottone1 {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 9px;
+  background: rgb(252, 70, 100);
+  border: none;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+  color: white;
+}
+
+#bottone1:hover {
+  box-shadow: 7px 5px 56px -14px rgb(252, 70, 100);
+}
+
+#bottone1:active {
+  transform: scale(0.97);
+  box-shadow: rgb(252, 70, 100);
+}
